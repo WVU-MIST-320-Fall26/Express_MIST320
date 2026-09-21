@@ -1,4 +1,4 @@
 Project Overview - In the Healthcare and Healthtech industry iBelong a regional network of outpatient clinics, is experiencing a no show rate of 22%, insufficient intake, overloaded call-centers, disjointed follow-ups, and high patient churn. They proposed a solution to this problem with a HIPAA-compliant Self-Service Patient Portal & Intelligent Intake Engine.
 Project Scope & Objectives - Improve iBelong's patient experience by implementing an intelligent intake engine that automates digital on-boarding, enable real-time appointment scheduling, process instant insurance API calls, and a secure messaging system between patients and staff.
-Budget & Milestone Schedule - 
+Budget & Milestone Schedule - Estimated budget would be approximately $500,000 over a one year period across varying milestones like planning/design, portal development, staff training, and integration.
 Team Roles & Governance - 
