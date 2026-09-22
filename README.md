@@ -2,3 +2,6 @@ Project Overview - In the Healthcare and Healthtech industry iBelong a regional 
 Project Scope & Objectives - Improve iBelong's patient experience by implementing an intelligent intake engine that automates digital on-boarding, enable real-time appointment scheduling, process instant insurance API calls, and a secure messaging system between patients and staff.
 Budget & Milestone Schedule - Estimated budget would be approximately $500,000 over a one year period across varying milestones like planning/design, portal development, staff training, and integration.
 Team Roles & Governance - 
+Aidan McClintock: Project Manager, project overseer makes sure everything is done correctly and completed on time.
+Matthew Tarallo: Business Analyst, identifies and solves problems within the business like the no show rate, and the disjointed follow ups.
+Landon Sifford: Systems Architect, in charge with the technological design of the implemented intelligent intake engine.
