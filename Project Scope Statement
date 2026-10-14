@@ -1,0 +1,78 @@
+Project Scope Statement
+iBelong Self-Service Patient Portal & Intelligent Intake Engine
+
+Background and Business Need
+iBelong experiences patient churn aqnd lost revenue led by inefficient intake where a reported 22% appointment no show rate and disjopinted post appointment follow up. Call centers are dealt with major scheduling demand, 
+where clinic staff process paper forms and manually resolve questions regardiung insurance and pre authorziation.
+
+This project will involve the creation of a secure patiuent portal that supports digitality, where onboarding, scheduling, patient services, and the ability for identity and insurance verification. Its devlivery scope follow the five epics and 17 issues supplied by the team.
+
+Purpose and Expected Benefits
+
+
+Product Scope
+
+
+Epics and Functional Deliverables
+Epic 1 — Patient Onboarding
+
+Allow patients to complete required paperwork and provide information before arriving at the clinic.
+
+1. Implement Digital Patient Forms | Online completion and submission of clinic-approved intake forms, with required-field validation and submission confirmation.
+2. Build a Medical History Questionnaire | Structured collection of patient-reported medical history for authorized staff review. Submitted history must remain distinguishable from clinician-validated information.
+3. Upload Patient Documents | Secure upload and retrieval of approved document types, including identification and insurance cards, subject to file-type and size limits.
+4. Digital Consent Forms | Presentation and electronic signing of approved consent forms, with signer, timestamp, and form-version records.
+5. Insurance Pre-Check | Automated eligibility requests through supported interfaces, with clear status and a path for unresolved results. Eligibility results must not be presented as guaranteed payment or prior authorization.
+
+Epic 2 — Appointment Scheduling
+
+Enable online scheduling and reminders while reducing missed appointments and routine calls.
+
+6. Scheduling Interface | Display eligible appointment availability and allow patients to book appointments according to approved clinic rules. Cancellation and rescheduling require explicit confirmation as part of this item or separate backlog work.
+7. Text/Email Reminders | Send approved appointment reminders using configured timing, communication preferences, and delivery-status handling.
+8. Auto Fill Waitlist System | Allow patients to join a waitlist and fill eligible openings under approved matching, consent, allocation, and confirmation rules. Concurrent allocation must not double-book a slot.
+
+Epic 3 — Automated Patient Services
+
+ Reduce routine service workload and improve patient access to assistance and billing information.
+
+9. AI Call System | Provisional item: its supplied user story duplicates automated billing and does not define call behavior. The team must approve a distinct story, supported call tasks, identity checks, and human handoff before implementation or acceptance criteria can be baselined.
+10. Automated Billing | Display authorized patient balances from the billing source and allow payment through an approved payment service, with confirmation and failed-payment handling. Full claims processing and billing-system replacement are excluded.
+11. Automated Payment Reminders | Send reminders using approved balance and due-date information, contact preferences, and rules that suppress reminders for settled balances.
+
+Epic 4 — Patient Verification
+
+12. Insurance and ID Verification | Provide authorized employees with access to relevant patient documents and verification status, including a way to record review results and resolve exceptions.
+13. Multi Step Identity Verification | Implement the approved additional verification steps for account access or sensitive actions, including secure recovery and failure handling.
+14. Document Expiration Alerts | Track applicable document expiration dates and notify patients when documents require updating. Documents without an applicable expiration date must be handled appropriately.
+
+Automated insurance checks in item 5 and employee review in item 12 will use a coordinated workflow. Identity verification alone must not be treated as proof of active insurance eligibility.
+
+Epic 5 — Patient Profile & Security
+
+Give patients secure accounts in which they can manage personal information and review account activity.
+
+15. Patient Management Page | Display and update approved personal-information fields, with validation and controlled synchronization to authoritative records.
+16. Authentication | Provide secure login, logout, session handling, and account recovery, coordinated with the verification controls in item 13.
+17. Patient Activity Log | Display approved account activity, such as logins and profile changes, without exposing other patients’ information or sensitive internal security details.
+Project Work
+
+Out of Scope Work
+
+Security, Privacy and Quality Requirements
+
+Acceptance Criteria
+
+Assumptions
+
+Constraints and Dependencies
+
+Budgen and Resources
+
+Principal Risks and Responses
+
+Governance and Change Control
+
+Backlog Alignment Decisions Required
+
+Approval and Closure
