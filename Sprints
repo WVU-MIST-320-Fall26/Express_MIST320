@@ -110,3 +110,8 @@ Issues #9, #10, #11, #14, #17
 Total: 24 points
 Focus: AI calls, billing, payment reminders, document alerts, and activity logs.
 
+Milestone	Due date	Issues
+M1 — Core Portal Foundation	Oct 25, 2026	#1, #4, #6, #7, #16
+M2 — Digital Intake and Verification	Nov 8, 2026	#2, #3, #5, #12, #13, #15
+M3 — Scheduling Enhancements	Nov 8, 2026	#8
+M4 — Automated Services and Monitoring	Nov 22, 2026	#9, #10, #11, #14, #17
