@@ -7,13 +7,22 @@ where clinic staff process paper forms and manually resolve questions regardiung
 
 This project will involve the creation of a secure patiuent portal that supports digitality, where onboarding, scheduling, patient services, and the ability for identity and insurance verification. Its devlivery scope follow the five epics and 17 issues supplied by the team.
 
-Purpose and Expected Benefits
+Purpose and Expected Benefits 
 
+The purpose is to reduce administrative friction before appointments and make routine patient interactions accessible through secure self-service.
+
+ - Reduce missed appointments 
+ - Reduce paper based intake 
+ - Reduce routine scheduling calls 
+ - Idenfity insurance issues earlier 
+ - Improbe billing info access 
+ - Improve account security and transperency 
 
 Product Scope
+The deliverable is a web based patient portal with the employee verification functions and integrations necessary. Patients will be ablke to complete onboartding, manage appointments, access billing services, verify their identity, and maintain their profiles. 
+Authorized employees will review identity and insurance information 
 
-
-Epics and Functional Deliverables
+In Scope Epics and Functional Deliverables
 Epic 1 — Patient Onboarding
 
 Allow patients to complete required paperwork and provide information before arriving at the clinic.
@@ -55,13 +64,49 @@ Give patients secure accounts in which they can manage personal information and 
 15. Patient Management Page | Display and update approved personal-information fields, with validation and controlled synchronization to authoritative records.
 16. Authentication | Provide secure login, logout, session handling, and account recovery, coordinated with the verification controls in item 13.
 17. Patient Activity Log | Display approved account activity, such as logins and profile changes, without exposing other patients’ information or sensitive internal security details.
+
+
 Project Work
+- Requirements discovery, workflow doumentation
+- Approved user experience designes that are accessible and responsive on interface
+- Security and privacy risk assessment
+- Application development
+
+The team will approve a release matrix specifying participating clinics, appointment types, forms, languages, patient populations, 
+and integration systems.
 
 Out of Scope Work
+- Replacement of existing electronic health record
+- Comprehensive migration or digitization of historical medical records
+- Secure clinical messaging and automated post appointment clinical follow up
+- End to end insurance pre authorization submission
+- Autonomous diagnosis
+-  Broadened financial functions beyond balance viewing, payment, and payment reminders
+- Appointment cancellation and rescheduling unless explicitly added to the scheduling requirements
+
 
 Security, Privacy and Quality Requirements
+The system must be designed and operated to support HIPAA obligations. Readiness includes administrative and technical safeguards.
+Requirements include authorized access, sucure authentication and recovery, encryption in transit and at rest, audit records, approved retention and disposal,
+secure uploads, backup and recovery procedures, and appropriate content must undergo privacy review. Payment handling must use an approved provider and a payment security approach that is documented.
+
+The team will have measurable performance, availability, accessibility, recovery, and external service timeout requirements before tersting. 
+False integratiuons will produce a status and recovery path. Staff permissions and patient access boundaries must be verified through positive/negative tests.
+
 
 Acceptance Criteria
+
+Patient Onboarding - approved forms validate and submit correctly; history is available to authorized users
+Appointment Scheduling - succesful bookings reconcile with the source schedules; unavailable slots can't be double booked; reminders follow approved preferences
+Automated Patient Services - displayed balances match the source system; payment success and failure are handles accordingly; repeated requests doesn't create duplicate charges
+Patient Verification - authorized employees can review and record verification; unauthorized users can't access documents; additional verification and recovery scenariors are compliant
+Patient Profile and Security - patients can update only permitted information; each patient sees only their own approved activity records
+
+
+
+
+
+
 
 Assumptions
 
