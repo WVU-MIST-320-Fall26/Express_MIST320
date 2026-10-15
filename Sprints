@@ -1,1 +1,112 @@
+#
+Issue
+Points
+Priority 
+Sprint
+1
+Digital Patient Forms
+3
+P1
+1
+2
+Medical History Questionnaire
+5
+P1
+2
+3
+Patient Document Uploads
+5
+P1
+2
+4
+Digital Consent Forms
+3
+P1
+1
+5
+Insurance Pre-Checks
+8
+P1
+2
+6
+Scheduling Interface
+8
+P0
+1
+7
+Text/Email Reminders
+5
+P0
+1
+8
+Waitlist Appointment Filling
+5
+P2
+2
+9
+AI Call System 
+8
+P2
+3
+10
+Automated Billing
+5
+P2
+3
+11
+Payment Reminders
+3
+P2
+3
+12
+Insurance and ID Verification
+8
+P1
+2
+13
+Multi-Step Identity Verification
+8
+P0
+2
+14
+Document Expiration Alerts
+3
+P2
+3
+15
+Patient Profile Management
+3
+P1
+2
+16
+Secure Patient Authentication
+8
+P0
+1
+17
+Patient Activity Log
+5
+P1
+3
+
+
+Sprint 1 — Core Patient Portal
+October 12–25, 2026
+Issues #1, #4, #6, #7, #16
+Total: 27 points
+Focus: digital forms, consent, scheduling, reminders, and secure login.
+
+
+Sprint 2 — Intake and Verification
+October 26–November 8, 2026
+Issues #2, #3, #5, #8, #12, #13, #15
+Total: 42 points
+Focus: medical history, document uploads, insurance verification, waitlists, and profile management.
+
+
+Sprint 3 — Automation and Monitoring
+November 9–22, 2026
+Issues #9, #10, #11, #14, #17
+Total: 24 points
+Focus: AI calls, billing, payment reminders, document alerts, and activity logs.
 
