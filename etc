@@ -1,0 +1,98 @@
+Onboarding
+Implement digital patient forms
+Patient can open digital intake forms.
+ Patient can enter required information.
+ Required fields prevent incomplete submission.
+ Patient can submit the completed form.
+ Submitted information is saved to the patient's record.
+ A confirmation message appears after submission.
+As a patient, I want to be able to do my forms digitally before arriving at the clinic to ensure that it’s saved on my record.
+
+Build a medical history questionnaire 
+Questionnaire contains required medical-history fields.
+ Patient can save and complete the questionnaire.
+ Required questions must be completed before submission.
+ Submitted answers are stored with the patient profile.
+ Patient receives confirmation after submission.
+	As a patient I would like to complete a questionnaire to have my medical history on file so that I can be properly acquitted.
+
+Upload patient documents
+Patient can select a document from their device.
+ System accepts supported file types.
+ System rejects unsupported file types.
+ Uploaded documents are associated with the correct patient.
+ Patient receives confirmation that the document was uploaded.
+	As a patient I would like to be able to upload personal documents and get document confirmation once uploaded.
+
+Digital consent forms
+Patient can view the consent form.
+ Patient can provide a digital signature.
+ System records the date and time of consent.
+ Patient cannot submit without completing required consent fields.
+ Completed consent is stored with the patient record.
+As a patient I want digital consent forms that I can view and sign with the date and time after completing the consent fields.
+
+	Appointment Scheduling
+Scheduling interface
+Patient can view available appointment dates.
+ Patient can view available appointment times.
+ Patient can select an available appointment.
+ System prevents double-booking.
+ Appointment is added to the patient's account.
+ Patient receives a scheduling confirmation.
+
+As a patient I want to be able to view my appointment dates, times, and be able to select an available appointment without being able to double book.
+
+Text/Email Reminders
+Patient can provide or update contact information.
+ System sends a reminder before the appointment.
+ Reminder contains the appointment date and time.
+ Patient can select text, email, or both when supported.
+ Reminder delivery is recorded by the system.
+	As a patient I want to be able to update contact information and have reminders making sure I’m able to get to my appointment on time. 
+
+Automated Systems
+AI Call System
+System can receive incoming calls.
+ System can identify common patient questions.
+ System provides predefined responses.
+ System can transfer the caller to staff when necessary.
+ Failed or transferred calls are recorded.
+As a patient I want an automated voice system that can identify and answer my questions and transfer my call when needed.
+
+Automated Billing
+System generates a bill from the appropriate patient account.
+ Bill includes the amount owed.
+ Bill includes relevant service information.
+ Patient can view the bill electronically.
+ Billing status is updated after payment or adjustment.
+	As a patient I would like to be opted into automated billing system that records the amount owed and the service information that can be viewed and updated.
+  
+Verification
+Insurance and ID
+Employee can view verification status.
+ Insurance and ID status are displayed separately.
+ Status indicates whether verification is complete.
+ Missing information is clearly identified.
+ Only authorized employees can view verification information.
+	As an employee I want to be able to view my verification status displaying my insurance and ID status only able to viewed by authorized employees. 
+	Patient Profile
+  
+Management Page
+Patient can access their management page.
+ Patient can view their personal information.
+ Patient can update permitted information.
+ Changes are saved successfully.
+As a patient I want to be able to access my management page to view my personal information that I can update if needed. 
+ Patient receives confirmation after updating information.
+ 
+Authentication
+Patient can create an account.
+ Patient can log in with valid credentials.
+ Invalid credentials are rejected.
+ Passwords are handled securely.
+ Patient can log out.
+ Protected information cannot be accessed without authentication.
+	As a patient I want to be able to create an account with my valid credentials and passwords being handled securely that cannot be accessed without proper authentication.
+
+  
