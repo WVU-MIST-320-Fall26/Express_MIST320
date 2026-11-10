@@ -7,8 +7,8 @@
 | Release | Business value delivered | Points | Status |
 | --- | --- | --- | --- |
 | Sprint 1: Digital intake and scheduling | Paperless patient and consent forms, online scheduling, automated reminders, secure login | 30 | Complete |
-| Sprint 2: Insurance and identity verification | Insurance pre-checks, ID and multi-step identity verification, document uploads and expiration alerts | 37 | Complete |
-| Sprint 3: Automation and billing | Automated billing and payment reminders, AI call handling, waitlist auto-fill, patient activity log | 26 | Next |
+| Sprint 2: Insurance and identity verification | Insurance pre-checks, ID and multistep identity verification, document uploads and expiration alerts | 37 | Complete |
+| Sprint 3: Automation and billing | Automated billing and payment reminders, AI call handling, waitlist autofill, patient activity log | 26 | Next |
 
 Team output rose 23% from Sprint 1 to Sprint 2 (30 to 37 points). Sprint 3 needs 26, less than either sprint so far.
 
@@ -31,7 +31,7 @@ There are no unfavorable variances to report. All figures are in story points; a
 
 | Risk | Business impact | Response |
 | --- | --- | --- |
-| AI call system is the most complex remaining feature (8 points) | Could delay the final release | Start it first in Sprint 3; ship the rest if it slips |
+| AI call system is the most complex remaining feature (8 points) | Could delay the final release | Start it first in Sprint 3 and ship the rest if it slips |
 | Billing and payment automation handles patient financial data | Errors would affect revenue and patient trust | Test billing and payment reminders end to end before launch |
 | Actual cost is estimated, not measured | The cost picture may be more favorable than reality | Track actual hours in Sprint 3 to confirm CPI |
 
